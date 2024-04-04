@@ -7,6 +7,8 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
+      aileronRegular: ['aileron-regular', 'sans-serif'],
+      aileronBold: ['aileron-bold', 'sans-serif'],
       plain: ['plain-regular', 'sans-serif'],
       plainBold: ['plain-bold', 'sans-serif'],
       plainNormal: ['plain-normal', 'sans-serif'],
