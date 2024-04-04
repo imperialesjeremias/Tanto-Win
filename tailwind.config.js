@@ -7,10 +7,11 @@ export default {
   theme: {
     extend: {},
     fontFamily: {
-      aileron: ['aileron', 'sans-serif'],
-      aileronRegular: ['aileronRegular', 'sans-serif'],
-      averta: ['averta', 'sans-serif'],
-
+      plain: ['plain-regular', 'sans-serif'],
+      plainBold: ['plain-bold', 'sans-serif'],
+      plainNormal: ['plain-normal', 'sans-serif'],
+      plainLight: ['plain-light', 'sans-serif'],
+      plainItalic: ['plain-italic', 'sans-serif'],
     }
   },
   plugins: [require("daisyui")],

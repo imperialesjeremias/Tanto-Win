@@ -3,16 +3,41 @@
 @tailwind utilities;
 
 @font-face {
-    font-family: 'aileron';
-    src: url('./assets/fonts/Aileron-Bold.otf');
+    font-family: 'plain-regular';
+    src: url(assets/fonts/Plain-Regular.otf);
 }
 
 @font-face {
-    font-family: 'aileronRegular';
-    src: url('./assets/fonts/Aileron-Regular.otf');
+    font-family: 'plain-bold';
+    src: url(assets/fonts/Plain-Bold.otf);
 }
 
 @font-face {
-    font-family: 'averta';
-    src: url('./assets/fonts/Averta-Bold.ttf');
+    font-family: 'plain-italic';
+    src: url(assets/fonts/Plain-Italic.otf);
+}
+
+@font-face {
+    font-family: 'plain-bold-italic';
+    src: url(assets/fonts/Plain-BoldItalic.otf);
+}
+
+@font-face {
+    font-family: 'plain-light';
+    src: url(assets/fonts/Plain-Light.otf);
+}
+
+@font-face {
+    font-family: 'plain-light-italic';
+    src: url(assets/fonts/Plain-LightItalic.otf);
+}
+
+@font-face {
+    font-family: 'plain-medium';
+    src: url(assets/fonts/Plain-Medium.otf);
+}
+
+@font-face {
+    font-family: 'plain-medium-italic';
+    src: url(assets/fonts/Plain-MediumItalic.otf);
 }
