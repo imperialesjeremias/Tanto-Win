@@ -5,12 +5,22 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        gray: {
+          533: '#ABA6A6',
+        },
+      }
+    },
     fontFamily: {
-      aileron: ['aileron', 'sans-serif'],
-      aileronRegular: ['aileronRegular', 'sans-serif'],
-      averta: ['averta', 'sans-serif'],
-
+      aileronRegular: ['aileron-regular', 'sans-serif'],
+      aileronBold: ['aileron-bold', 'sans-serif'],
+      plain: ['plain-regular', 'sans-serif'],
+      plainBold: ['plain-bold', 'sans-serif'],
+      plainNormal: ['plain-normal', 'sans-serif'],
+      plainLight: ['plain-light', 'sans-serif'],
+      plainItalic: ['plain-italic', 'sans-serif'],
+      plainRegular: ['plain-regular', 'sans-serif'],	
     }
   },
   plugins: [require("daisyui")],
