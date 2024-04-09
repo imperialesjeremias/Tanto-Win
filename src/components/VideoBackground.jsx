@@ -1,15 +1,15 @@
-import React from 'react';
-import videoSrc from '/fondo.mp4';
+import React from "react";
+import videoSrc from "/fondo.mp4";
 
 const VideoBackground = () => {
   const videoStyle = {
-    position: 'absolute',
+    position: "absolute",
     top: 0,
     left: 0,
-    width: '100vw',
-    height: '100vh',
-    objectFit: 'cover',
-    zIndex: -1, 
+    width: "100vw",
+    height: "100vh",
+    objectFit: "cover",
+    zIndex: -1,
   };
 
   return (

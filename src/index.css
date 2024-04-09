@@ -2,53 +2,76 @@
 @tailwind components;
 @tailwind utilities;
 
-
-@font-face {
-    font-family: 'aileron-bold';
-    src: url(assets/fonts/Aileron-Bold.otf);
+html {
+  scroll-behavior: smooth;
 }
 
 @font-face {
-    font-family: 'aileron-regular';
-    src: url(assets/fonts/Aileron-Regular.otf);
+  font-family: "aileron-bold";
+  src: url(assets/fonts/Aileron-Bold.otf);
 }
 
 @font-face {
-    font-family: 'plain-regular';
-    src: url(assets/fonts/Plain-Regular.otf);
+  font-family: "aileron-regular";
+  src: url(assets/fonts/Aileron-Regular.otf);
 }
 
 @font-face {
-    font-family: 'plain-bold';
-    src: url(assets/fonts/Plain-Bold.otf);
+  font-family: "plain-regular";
+  src: url(assets/fonts/Plain-Regular.otf);
 }
 
 @font-face {
-    font-family: 'plain-italic';
-    src: url(assets/fonts/Plain-Italic.otf);
+  font-family: "plain-bold";
+  src: url(assets/fonts/Plain-Bold.otf);
 }
 
 @font-face {
-    font-family: 'plain-bold-italic';
-    src: url(assets/fonts/Plain-BoldItalic.otf);
+  font-family: "plain-italic";
+  src: url(assets/fonts/Plain-Italic.otf);
 }
 
 @font-face {
-    font-family: 'plain-light';
-    src: url(assets/fonts/Plain-Light.otf);
+  font-family: "plain-bold-italic";
+  src: url(assets/fonts/Plain-BoldItalic.otf);
 }
 
 @font-face {
-    font-family: 'plain-light-italic';
-    src: url(assets/fonts/Plain-LightItalic.otf);
+  font-family: "plain-light";
+  src: url(assets/fonts/Plain-Light.otf);
 }
 
 @font-face {
-    font-family: 'plain-medium';
-    src: url(assets/fonts/Plain-Medium.otf);
+  font-family: "plain-light-italic";
+  src: url(assets/fonts/Plain-LightItalic.otf);
 }
 
 @font-face {
-    font-family: 'plain-medium-italic';
-    src: url(assets/fonts/Plain-MediumItalic.otf);
+  font-family: "plain-medium";
+  src: url(assets/fonts/Plain-Medium.otf);
+}
+
+@font-face {
+  font-family: "plain-medium-italic";
+  src: url(assets/fonts/Plain-MediumItalic.otf);
+}
+
+::-webkit-scrollbar {
+  width: 14px;
+}
+
+/* track */
+::-webkit-scrollbar-track {
+  background: rgba(52, 52, 52, 0.8);
+}
+
+/* handle */
+::-webkit-scrollbar-thumb {
+  background: #404040;
+  border-radius: 10px;
+}
+
+/* handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #454545;
 }
