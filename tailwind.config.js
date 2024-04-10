@@ -7,6 +7,10 @@ export default {
   ],
   theme: {
     extend: {
+      screens: {
+        '3xl': '1920px',
+        // => @media (min-width: 1920px) {...}
+      },
       colors: {
         gray: {
           533: "#ABA6A6",
