@@ -37,12 +37,6 @@ const Home = () => {
       <section id="about" className="w-[100vw] h-[100vh]">
         <div className="flex w-full h-full justify-center items-center bg-white"></div>
       </section>
-      <section
-        id="contact"
-        className="w-[100vw] h-[100vh] border-t border border-black"
-      >
-        <div className="flex w-full h-full justify-center items-center bg-white"></div>
-      </section>
     </main>
   );
 };
