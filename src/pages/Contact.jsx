@@ -23,7 +23,7 @@ const Contact = () => {
     <section id="contact" className="mt-16">  
       <div className={`${isMobile ? 'flex flex-col items-center justify-center m-8' : 'w-3/5 m-auto flex flex-col justify-center h-[390] 2xl:h-[420px]'}`}>
         <h1 className={`${isMobile ? 'text-3xl font-plainRegular mb-2 md:mb-4 md:text-5xl' : 'text-4xl font-plainRegular'}`}>Contacto</h1>
-        <div className={`mt-4 gap-4 ${isMobile ? 'artboard artboard-horizontal bg-[#1F1F1F] rounded-md flex flex-col p-7 h-4/5' : 'bg-[#1F1F1F] rounded-xl flex flex-row h-full p-10'}`}>
+        <div className={`mt-4 gap-4 ${isMobile ? 'artboard artboard-horizontal bg-[#1F1F1F] rounded-md flex flex-col p-7 h-4/5' : 'bg-[#1F1F1F] rounded-xl flex flex-row p-10'}`}>
           <div className={`${isMobile ? 'text-white' : 'text-white w-3/4 2xl:w-2/4'}`}>
             <h2 className={`${isMobile ? 'font-plain text-[22px] md:text-[25px]' : 'text-2xl leading-9 2xl:text-4xl'} font-plainBold mb-3 md:mb-4`}>
               Proporciona sus detalles de contacto
